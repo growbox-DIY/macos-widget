@@ -19,6 +19,32 @@ home network. Firmware: [firmware](https://github.com/growbox-DIY/firmware),
 phone app: [app](https://github.com/growbox-DIY/app), shelf screen:
 [external-monitor](https://github.com/growbox-DIY/external-monitor).
 
+## Install with Claude (easiest)
+
+No coding needed: Claude installs the widget for you and explains every
+step.
+
+You need:
+
+- a Mac with macOS 14 or newer,
+- the [Claude desktop app](https://claude.ai/download) with Claude Code
+  (the **Code** tab, included in paid Claude plans),
+- the controller's API token, and its address if you know it - ask the
+  person who set up the GrowBox controller.
+
+1. Open the Claude app, go to the **Code** tab and choose an empty folder.
+2. Paste this and press Enter:
+
+   ```
+   Install the GrowBox Mac widget from https://github.com/growbox-DIY/macos-widget for me. Follow the CLAUDE.md in that repo.
+   ```
+
+3. Answer Claude's questions and allow what macOS asks for (developer
+   tools, local network access).
+
+No Apple account is needed and the widget does not expire. The
+step-by-step guide Claude follows is in [CLAUDE.md](CLAUDE.md).
+
 ## Setup
 
 Settings are kept outside the repo, in `~/.config/growbox/widget.json`:
