@@ -32,7 +32,7 @@ the menu bar shows temperature and humidity from their GrowBox controller.
    tell the person to click **Install** in the dialog and wait until it
    finishes (several minutes). No Apple account is needed.
 3. **Controller.** Ask for the API token (the person who set up the
-   controller has it: `API_TOKEN` in the firmware's `App/api_token.py`)
+   controller has it: `API_TOKEN` in the firmware's `src/api_token.py`)
    and the address. If they don't know the address, try
    `http://esp32.local`. Test it:
    `curl -s -m 5 -H "Authorization: Bearer <token>" <url>/api/config`.

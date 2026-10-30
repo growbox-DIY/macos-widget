@@ -50,7 +50,7 @@ step-by-step guide Claude follows is in [CLAUDE.md](CLAUDE.md).
 Settings are kept outside the repo, in `~/.config/growbox/widget.json`:
 
 ```json
-{ "url": "http://192.168.18.85", "token": "<API_TOKEN from App/api_token.py>" }
+{ "url": "http://192.168.18.85", "token": "<API_TOKEN from src/api_token.py>" }
 ```
 
 ## Build and run
